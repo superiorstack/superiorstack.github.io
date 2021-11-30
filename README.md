@@ -1,5 +1,8 @@
 <div align=center>
 
+<br>
+<br>
+
 ![Superior Stack Light Logo](.github/logo-light.svg#gh-dark-mode-only)
 ![Superior Stack Dark Logo](.github/logo-dark.svg#gh-light-mode-only)
 
