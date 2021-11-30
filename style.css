@@ -1,12 +1,33 @@
-@import "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url(//db.onlinewebfonts.com/c/2d57f676e3d6955778fb8acac0176b9a?family=Eina01-Bold);
-@import url(//db.onlinewebfonts.com/c/1868e326d3ee28e5395f6efa2bc037bf?family=Eina01-Regular);
+@import "https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  font-family: "Eina01-Regular", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,b,span,button {
-    font-family: "Eina01-Bold", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+button {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+.ss {
+  background: linear-gradient(141.82deg, #21d4fd 4.45%, #b721ff 95.55%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
